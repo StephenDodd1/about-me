@@ -1,0 +1,49 @@
+* {
+    background-color: rgb(58, 57, 57);
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div > #my-face {
+    width: 90px;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+div > #logo {
+    width: 140px;
+}
+
+span {
+    color:rgb(206, 13, 13);
+    size: larger;
+    font-weight: bold;
+}
+
+#unt-color {
+    color: rgb(5, 150, 5);
+}
+
+#uta-color {
+    color: orange;
+}
+
+@media screen and (min-width: 900px) {
+    body {
+       display: flex;
+       flex-direction: row;
+    }
+
+    #introduction {
+        margin-left: 40px;
+        margin-right: 8%;
+    }
+
+    #large-screen-split {
+        
+    }
+}
