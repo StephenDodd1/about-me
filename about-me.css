@@ -10,12 +10,24 @@ body {
 }
 
 div > #my-face {
-    width: 90px;
-    margin-left: 10px;
-    margin-right: 100px;
-}
+    height: 140px;
+    margin-top: 30px;
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+      }
+
+
 div > #logo {
-    width: 140px;
+    height: 200px;
+}
+
+header > div {
+    display: flex;
+    flex-direction: row;
+    vertical-align: top;
 }
 
 span {
@@ -44,6 +56,6 @@ span {
     }
 
     #large-screen-split {
-        
+        margin-top: 50px;
     }
 }
